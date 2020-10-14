@@ -1,0 +1,52 @@
+
+@media (max-width: 1440px) {
+  
+}
+/* tablet */
+
+@media (max-width: 1000px) {
+
+
+  .flex-list {
+   text-align: center;
+}
+ 
+  .judul {
+    padding-left: 80px;
+  }
+
+  .selected {
+  padding-left: 20px;
+}
+
+  .selected p {
+    text-align: center;
+  }
+
+  .btn {
+    margin-bottom: 82px;
+    width: 520px;
+  }
+
+
+
+}
+
+/*handphone*/
+
+@media (max-width: 425px) {
+  
+  .img {
+    padding-left: 60px;
+  }
+  .judul {
+    font-size: 52px;
+    width: 400px;
+    padding-left: 0;
+    margin-left: 0;
+    padding-left: 205px;
+  }
+
+
+}
+

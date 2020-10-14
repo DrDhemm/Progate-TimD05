@@ -1,0 +1,106 @@
+@font-face {
+         font-family: "gilroy";
+         src: url('gilroy-extrabold.otf');
+ 	  }
+
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.judul {
+	font-family: "gilroy";
+	font-size: 70px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.flex-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 80px;
+}
+	
+.flex-list li {
+	flex: auto;
+}
+
+.flex-list img {
+	width: 520px;
+	height: 370px;
+	border-radius: 29px;
+	margin-bottom: 57px;
+	margin-top: 20px;
+}
+
+
+.flex-list h1 {
+	font-family: "gilroy";
+	font-size: 55px;
+
+}
+
+.flex-list p {
+	font-family: "inter";
+	font-size: 29px;
+	height: 140px;
+	display: inline-block;
+	text-align: justify;
+	margin-top: 0;
+	padding-right: 80px;
+	width: 630px;
+}
+
+.btn {
+	display: inline-block;
+	width: 220px;
+	height: 64px;
+	text-align: center;
+	background-color: #fff;
+	color: #407BFF;
+	line-height: 64px;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #407BFF;
+	letter-spacing: 5px;
+}
+
+.selected {
+	margin-left: 2px; 
+	width: 630px;
+	padding-right: 80px;
+}
+
+.img {
+	width: 520px;
+}
+
+
+/* Animasi */
+
+
+.btn {
+	transition: 0.5s;
+}
+
+.btn:hover {
+	background-color: #407BFF;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+
+.kelas img {
+	transition: 0.5s;
+}
+
+
+.kelas img:hover {
+	box-shadow: -12px 12px 35px #666666;
+	margin-left: 15px;
+}
