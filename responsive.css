@@ -1,4 +1,90 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* Testimoni & Langganan */
+  .comment::before {
+    left: 90%;
+  }
+
+  .comments {
+    flex-direction: column;
+  }
+
+  .comment {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .comment:nth-of-type(1),
+  .comment:nth-of-type(2) {
+    margin-bottom: 8%;
+  }
+
+  .commentxt {
+    flex: unset;
+    width: 55%;
+  }
+
+  .people {
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .people img {
+    margin: 0 0 1em 0;
+    width: 50%;
+  }
+
+  .input-subs {
+    width: 80%;
+  }
+  /* Testimoni & Langganan End */
+}
+
+/* Untuk Mobile */
 @media (max-width: 670px) {
+  /* Testimoni & Langganan */
+  .comment::before {
+    left: 10%;
+  }
+
+  .comment {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .commentxt {
+    flex: 1;
+    width: 100%;
+    padding: 1em;
+  }
+
+  .people {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .people img {
+    margin: 0 0 1em 0;
+    width: 15%;
+  }
+
+  .input-subs {
+    width: 100%;
+  }
+
+  .input-subs input {
+    border-radius: 65px;
+    padding: 0 10%;
+    width: 80% !important;
+  }
+
+  .input-subs button,
+  .input-subs svg {
+    display: none;
+  }
+  /* Testimoni & Langganan End */
+
   /* Footer */
   .footer-logo {
     font-size: 85px;
