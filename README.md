@@ -1,1 +1,1 @@
-### INIT README
+### This is Learnic Webpage
