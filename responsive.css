@@ -1,0 +1,49 @@
+@media (max-width:1320px) {
+  .fitur {
+    width:250px;
+  }
+}
+
+
+@media (max-width:1100px) {
+  .satu {
+    margin-right: 81px;
+  }
+  .fitur {
+    width:250px;
+  }
+}
+@@media (max-width:940px) {
+  .satu {
+    margin-right: 10px;
+  }
+  .fitur {
+    width: 190px;
+  }
+}
+@@media (max-width:900px) {
+  .satu {
+    margin-right: 15px;
+  }
+  .fitur {
+    width: 30%;
+  }
+}
+@@media (max-width;750px) {
+  .fitur {
+    width: 30%;
+
+  }
+}
+@media (max-width:670px) {
+  .satu {
+    margin-right: 0;
+  }
+  .fitur {
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  .fitur-fitur {
+    padding-left: 0;
+  }
+}

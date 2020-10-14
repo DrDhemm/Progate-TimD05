@@ -1,0 +1,57 @@
+.fitur-container {
+  width: 88.2869692533%;
+  margin: 0 auto;
+}
+.fitur-wrapper {
+  text-align:center;
+  height: 720px;
+}
+.heading {
+  font-size: 44px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.fitur {
+  width: 320px;
+  height: 451px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 29px 86px 0px rgba(0, 0, 0, 0.1);
+  padding-top: 65px;
+  float: left;
+  border-radius: 40px;
+  transition: all 1s;
+}
+.fitur-fitur {
+  text-align: center;
+  padding-left:27px ;
+}
+.fitur-logo {
+  width: 100%;
+  height: 140px;
+
+}
+.fitur-title {
+  font-size: 38px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.satu {
+  margin-right: 81px;
+}
+.fitur:hover {
+  background-color: rgba(64, 123, 255, 0.5);
+  box-shadow: 0px 29px 86px 5px rgba(64, 123, 255, 1);
+
+}
+.txt {
+  font-family: 'Inter', sans-serif;
+
+
+}
+.fa-clock {
+  font-size:150px;
+}
+.fa-phone {
+  font-size: 150px;
+}
+.fa-chalkboard-teacher {
+  font-size: 150px;
+}
