@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  background-color: #3498db;
+  height: 270px;
+color: white;
+}
+
+.footer-logo{
+padding: 20px 50px;
+float:left;
+font-size:50px;
+}
+
+.footer-list li{
+float:right;
+padding:30px 30px;
+font-size:20px;
+}
+
+.footer-list li:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+
