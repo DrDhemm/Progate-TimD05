@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 /* Fitur Kelas */
 .fitur-wrapper .heading {
   text-align: center;
@@ -119,6 +123,7 @@
   letter-spacing: 5px;
   transition: all 0.5s;
   margin: 1em 0 0;
+  font-family: "Inter", sans-serif;
 }
 
 .kelas .selected {
@@ -301,6 +306,7 @@ section .heading {
   padding: 20px 0px;
   float: left;
   font-size: 50px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .footer-list {
@@ -312,6 +318,7 @@ section .heading {
   float: left;
   padding: 30px 30px;
   font-size: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-list li:hover {

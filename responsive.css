@@ -110,6 +110,7 @@
 
   .footer-list {
     float: none;
+    margin-bottom: 1em;
   }
 
   .footer-list li {
