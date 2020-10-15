@@ -7,9 +7,10 @@
 }
 
 /* Fitur Kelas */
-.heading {
+.fitur-wrapper .heading {
   text-align: center;
   font-family: "Kumbh Sans", sans-serif;
+  padding: 2em 0;
 }
 
 .fitur-fitur {
@@ -20,40 +21,49 @@
 
 .fitur {
   width: 32%;
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 29px 86px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 40px;
+  box-shadow: 0px 9px 36px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 2%;
+  height: 500px;
   transition: all .5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.fitur-logo {
+.fitur-logo, .fitur-desc {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fitur-logo{
+  justify-content: center;
+  height: 60%;
+}
+
+.fitur-desc {
+  justify-content: space-evenly;
+  flex: 1;
 }
 
 .fitur-title {
-  font-size: 38px;
+  font-size: 1.5rem;
   font-family: "Kumbh Sans", sans-serif;
 }
 
 .fitur:hover {
-  background-color: rgba(64, 123, 255, 0.5);
-  box-shadow: 0px 29px 86px 5px rgba(64, 123, 255, 1);
+  /* background-color: rgba(64, 123, 255, 0.5); */
+  box-shadow: 0px 9px 36px -5px #407cff6b;
 }
 
 .txt {
   font-family: "Inter", sans-serif;
 }
 
-.fa-clock {
+.fitur-fitur .fa {
   font-size: 150px;
-}
-
-.fa-phone {
-  font-size: 150px;
-}
-
-.fa-chalkboard-teacher {
-  font-size: 150px;
+  color: #407bff;
 }
 /* Fitur Kelas End */
 
@@ -65,7 +75,7 @@
 .kelas .judul {
   font-family: "Kumbh Sans", sans-serif;
   text-align: center;
-  padding-bottom: 40px;
+  padding: 2em 0;
 }
 
 .kelas .flex-list {
