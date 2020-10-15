@@ -118,6 +118,7 @@
   border: 1px solid #407bff;
   letter-spacing: 5px;
   transition: all 0.5s;
+  margin: 1.5em 0 2em;
 }
 
 .kelas .selected {
