@@ -2,9 +2,31 @@
 @media all and (max-width: 1000px) {
   /* Sidebar */
   .sidebar {
-    right: -90000px;
+    right: -1000px;
   }
   /* Sidebar End */
+
+  /* Landing */
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .main .copy-container,
+  .main .ilustrasi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main .btn {
+    margin-bottom: 35px 0;
+  }
+
+  .main .ilustrasi img {
+    width: 90%;
+  }
+  /* Landing End */
 
   /* Fitur Kelas */
   .fitur-fitur {
@@ -113,6 +135,17 @@
   /* Footer End */
 }
 
+/* Untuk Heading */
+@media (max-width: 629px) {
+  .header-list {
+    display: none;
+  }
+
+  .header-right {
+    display: block;
+  }
+}
+
 /* Untuk Mobile */
 @media (max-width: 670px) {
   /* Sidebar */
@@ -120,6 +153,16 @@
     right: -1000px;
   }
   /* Sidebar End */
+
+  /* Landing */
+  .main .copy-container h1 {
+    font-size: 2rem;
+  }
+
+  .main .copy-container p {
+    font-size: 0.9rem;
+  }
+  /* Landing End */
 
   /* Fitur Kelas */
   .fitur {
