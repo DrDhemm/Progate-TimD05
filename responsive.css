@@ -87,6 +87,19 @@
 
 /* Untuk Mobile */
 @media (max-width: 670px) {
+  /* Fitur Kelas */
+  .satu {
+    margin-right: 0;
+  }
+  .fitur {
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  .fitur-fitur {
+    padding-left: 0;
+  }
+  /* Fitur Kelas End */
+
   /* Kelas Poluler */
   .kelas .selected {
     width: 80%;
