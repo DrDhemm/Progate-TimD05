@@ -105,23 +105,10 @@
   /* Testimoni & Langganan End */
 
   /* Footer */
-  .footer {
-    text-align: center;
-  }
-
-  .footer-logo {
-    font-size: 85px;
-    width: 100%;
-  }
-
-  .footer-list {
-    float: none;
-    margin-bottom: 1em;
-  }
-
-  .footer-list li {
-    padding: 10px 2.4%;
-    float: none;
+  .footer-list li{
+    padding:30px 0px;
+    padding-right:30px;
+    font-size:15px;
   }
   /* Footer End */
 }
@@ -219,4 +206,17 @@
     display: none;
   }
   /* Testimoni & Langganan End */
+  
+   /* Footer */
+  .footer-logo{
+  font-size:85px;
+  text-align:center;
+  }
+
+  .footer-list li{
+  padding:10px;
+  margi-bottom:10px;
+  font-size:12px;
+  text-align:center;
+  /* Footer End */
 }
