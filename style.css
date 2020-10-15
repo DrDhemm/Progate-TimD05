@@ -12,45 +12,33 @@
 }
 
 .kelas .judul {
-  font-family: "gilroy";
-  font-size: 70px;
+  font-family: "Kumbh Sans", sans-serif;
   text-align: center;
   padding-bottom: 40px;
 }
 
 .kelas .flex-list {
   display: flex;
-  flex-wrap: wrap;
-  padding-left: 80px;
+  justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 .kelas .flex-list li {
   list-style: none;
-  flex: auto;
 }
 
 .kelas .flex-list img {
-  width: 520px;
-  height: 370px;
+  width: 420px;
+  height: 270px;
   border-radius: 29px;
-  margin-bottom: 57px;
-  margin-top: 20px;
 }
 
-.kelas .flex-list h1 {
-  font-family: "gilroy";
-  font-size: 55px;
+.kelas .flex-list h2 {
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .kelas .flex-list p {
   font-family: "inter";
-  font-size: 29px;
-  height: 140px;
-  display: inline-block;
-  text-align: justify;
-  margin-top: 0;
-  padding-right: 80px;
-  width: 630px;
 }
 
 .kelas .btn {
@@ -68,13 +56,10 @@
 }
 
 .kelas .selected {
-  margin-left: 2px;
-  width: 630px;
-  padding-right: 80px;
-}
-
-.kelas .img {
-  width: 520px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Animasi */

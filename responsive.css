@@ -2,24 +2,25 @@
 @media all and (max-width: 1000px) {
   /* Kelas Populer */
   .kelas .flex-list {
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .kelas .judul {
-    padding-left: 80px;
+  .kelas {
+    text-align: center;
   }
 
   .kelas .selected {
-    padding-left: 20px;
+    width: 50%;
   }
 
-  .kelas .selected p {
-    text-align: center;
+  .kelas .selected h2 {
+    padding-top: 1em;
   }
 
   .kelas .btn {
-    margin-bottom: 82px;
-    width: 520px;
+    width: 100%;
+    margin-bottom: 2em;
   }
   /* Kelas Populer End */
 
@@ -87,15 +88,16 @@
 /* Untuk Mobile */
 @media (max-width: 670px) {
   /* Kelas Poluler */
-  .kelas .img {
-    padding-left: 60px;
+  .kelas .selected {
+    width: 80%;
   }
-  .kelas .judul {
-    font-size: 52px;
-    width: 400px;
-    padding-left: 0;
-    margin-left: 0;
-    padding-left: 205px;
+
+  .kelas .flex-list .img {
+    width: 80%;
+  }
+
+  .kelas .flex-list .img img {
+    width: 100%;
   }
   /* Kelas Poluler End */
 
