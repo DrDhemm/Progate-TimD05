@@ -59,6 +59,7 @@
 
 .txt {
   font-family: "Inter", sans-serif;
+  color: #a4a4a4;
 }
 
 .fitur-fitur .fa {
@@ -124,6 +125,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.kelas .selected p {
+  color: #a4a4a4;
 }
 
 .kelas .btn:hover {
