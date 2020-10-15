@@ -10,6 +10,80 @@ body {
   position: relative;
 }
 
+.sidebar-wrap {
+  min-width: 320px;
+}
+
+.noScroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -90000px;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  background-color: #407cffbd;
+  backdrop-filter: blur(10px);
+  transition: all .5s;
+}
+
+.side-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 2em 0;
+}
+
+.side-logo {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.side-close {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.side-close:active {
+  color: #407bff;
+}
+
+.side-link li {
+  list-style: none;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.side-link li a {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: white;
+  width: 100%;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.side-link li a:active {
+  color: #407bff;
+}
+
+.sidebar-open {
+  right: 0px !important;
+}
+/* Sidebar End */
+
 /* Fitur Kelas */
 .fitur-wrapper .heading {
   text-align: center;
@@ -68,7 +142,12 @@ body {
 
 .fitur-fitur .fa {
   font-size: 150px;
-  color: #407bff;
+  color: #407cffb6;
+  transition: all .5s;
+}
+
+.fitur-fitur .fa:hover {
+  color: #407cff;
 }
 /* Fitur Kelas End */
 
@@ -224,13 +303,18 @@ section .heading {
 }
 
 .input-subs {
-  box-shadow: 0px 4px 28px -3px rgba(64, 123, 255, 0.4);
+  box-shadow: 0px 4px 28px -3px rgba(64, 123, 255, 0.2);
   border-radius: 65px;
   display: flex;
   align-items: center;
   height: 50px;
   width: 50%;
   margin-bottom: 8%;
+  transition: all .5s;
+}
+
+.input-subs:focus-within {
+  box-shadow: 0px 4px 28px -3px rgba(64, 123, 255, 0.4);
 }
 
 .input-subs svg {

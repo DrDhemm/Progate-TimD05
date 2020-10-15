@@ -1,5 +1,11 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  /* Sidebar */
+  .sidebar {
+    right: -90000px;
+  }
+  /* Sidebar End */
+
   /* Fitur Kelas */
   .fitur-fitur {
     flex-direction: column;
@@ -122,6 +128,12 @@
 
 /* Untuk Mobile */
 @media (max-width: 670px) {
+  /* Sidebar */
+  .sidebar {
+    right: -1000px;
+  }
+  /* Sidebar End */
+
   /* Fitur Kelas */
   .fitur {
     width: 100%;
@@ -148,7 +160,7 @@
   }
 
   .txt {
-    padding: 0em .5em;
+    padding: 0em 0.5em;
   }
   /* Fitur Kelas End */
 

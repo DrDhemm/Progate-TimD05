@@ -13,18 +13,39 @@
       src="https://kit.fontawesome.com/0e785d3838.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="./script.js"
-    ></script>
-    <link rel="shortcut icon" href="./asset/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./asset/favicon.png" type="image/x-icon" />
     <title>Learnic</title>
   </head>
   <body>
     <!-- Sidebar -->
-    <button onclick="">Buka Sidebar</button>
-    <section class="sidebar">
-
-    </section>
+    <button class="trigger">Buka Sidebar</button>
+    <div class="sidebar-wrap">
+      <section class="sidebar">
+        <div class="container">
+          <div class="side-header">
+            <div class="side-logo">Learnic</div>
+            <a class="side-close">tutup</a>
+          </div>
+        </div>
+        <div class="side-link">
+          <ul>
+            <li>
+              <div class="container"><a href="#">Contact</a></div>
+            </li>
+            <li>
+              <div class="container"><a href="#">Support</a></div>
+            </li>
+            <li>
+              <div class="container"><a href="#">FAQ</a></div>
+            </li>
+            <li>
+              <div class="container"><a href="#">About</a></div>
+            </li>
+          </ul>
+        </div>
+        <div class="side-user"></div>
+      </section>
+    </div>
     <!-- Sidebar End -->
     <!-- Fitur Kelas -->
     <div class="fitur-wrapper">
@@ -218,5 +239,6 @@
       <div class="clear"></div>
     </div>
     <!-- Footer End -->
+    <script src="./script.js"></script>
   </body>
 </html>
