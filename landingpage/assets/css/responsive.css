@@ -1,0 +1,141 @@
+@media(max-width:670px) {
+    .main {
+        padding: 90px 30px;
+        display: flex;
+        vertical-align: middle;
+    }
+
+    .copy-container {
+        font-size: 18px !important;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .copy-container p {
+        font-size: 10px;
+        color: #b5b5b5;
+        font-family: 'Inter', sans-serif;
+        width: 150%;
+    }
+
+    .ilustrasi {
+       display:none;
+
+    }
+
+    .header {
+        height: 65px;
+        width: 100%;
+        background-color: #407BFF;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header-logo {
+        font-size: 25px;
+        font-weight: bold;
+        float: left;
+        padding: 10px 15px;
+        color: white;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon {
+        color: white;
+        float: right;
+        font-size: 35px;
+        padding-top: 25px;
+        padding-right:590px;
+        /* Gantikan property display ke none */
+        display: none;
+    }
+    .middle {
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 50px;
+        transform: translate(-50%, -50%);
+      }
+      
+      .btn {
+        border-radius: 100px;
+        position: relative;
+        display: block;
+        color: black;
+        font-size: 15px;
+        font-family: "Kumbh Sans";
+        font-weight: bold;
+        text-decoration: none;
+        margin: 30px 0;
+        border: 3px solid #407BFF;
+        padding: 5px 60px;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 1s all ease;    
+      }
+      
+      .btn::before {
+        background: #407BFF;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+      
+      }
+      
+      .btn1::before {
+        width: 0%;
+        height: 100%;
+      }
+      
+      .btn1:hover::before {
+        width: 100%;
+      }
+      
+}
+
+@media(max-width:1000px) {
+    .copy-container {
+        font-size: 15px;
+        width: 150%;
+    }
+
+    .copy-container p {
+        font-size: 10px;
+        color: #b5b5b5;
+        font-family: 'Inter', sans-serif;
+        width: 150%;
+    }
+
+    .ilustrasi {
+        float: bottom;
+        width: 150%;
+    }
+
+    .header {
+        height: 65px;
+        width: 100%;
+        background-color: #407BFF;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header-logo {
+        font-size: 15px;
+        font-weight: bold;
+        float: left;
+        padding: 25px 15px;
+        color: white;
+    }
+}
