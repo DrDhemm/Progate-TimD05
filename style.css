@@ -3,9 +3,14 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 /* Testimoni & Langganan */
+section {
+margin-bottom: 5vh;
+}
+
 section .heading {
   font-family: "Kumbh Sans", sans-serif;
   text-align: center;
@@ -81,12 +86,13 @@ section .heading {
 }
 
 .input-subs {
-  box-shadow: 0px 4px 28px -3px rgba(64, 123, 255, 0.2);
+  box-shadow: 0px 4px 28px -3px rgba(64, 123, 255, 0.4);
   border-radius: 65px;
   display: flex;
   align-items: center;
   height: 50px;
   width: 50%;
+  margin-bottom: 8%;
 }
 
 .input-subs svg {
@@ -153,20 +159,24 @@ section .heading {
 
 /* Footer */
 .footer {
-  background-color: #3498db;
-  height: 270px;
+  background-color: rgba(64, 124, 255);
+  height: max-content;
   color: white;
 }
 
 .footer-logo {
-  padding: 20px 50px;
+  padding: 20px 0px;
   float: left;
   font-size: 50px;
 }
 
+.footer-list {
+  float: right;
+}
+
 .footer-list li {
   list-style: none;
-  float: right;
+  float: left;
   padding: 30px 30px;
   font-size: 20px;
 }
@@ -174,5 +184,9 @@ section .heading {
 .footer-list li:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.clear {
+  clear: both;
 }
 /* Footer End */
