@@ -145,6 +145,10 @@
     justify-content: space-evenly;
     flex: 1;
   }
+
+  .txt {
+    padding: 0em .5em;
+  }
   /* Fitur Kelas End */
 
   /* Kelas Poluler */
