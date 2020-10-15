@@ -35,24 +35,27 @@
 
 .kelas .flex-list h2 {
   font-family: "Kumbh Sans", sans-serif;
+  font-size: 2rem;
 }
 
 .kelas .flex-list p {
   font-family: "inter";
+  font-size: 1.2rem;
 }
 
 .kelas .btn {
   display: inline-block;
-  width: 220px;
-  height: 64px;
+  width: 150px;
+  height: 50px;
   text-align: center;
   background-color: #fff;
   color: #407bff;
-  line-height: 64px;
+  line-height: 50px;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 1.2rem;
   border: 1px solid #407bff;
   letter-spacing: 5px;
+  transition: all 0.5s;
 }
 
 .kelas .selected {
@@ -62,20 +65,10 @@
   justify-content: center;
 }
 
-/* Animasi */
-
-.kelas .btn {
-  transition: 0.5s;
-}
-
 .kelas .btn:hover {
   background-color: #407bff;
   border: 1px solid #fff;
   color: #fff;
-}
-
-.kelas .kelas img {
-  transition: 0.5s;
 }
 /* Kelas Populer End */
 
