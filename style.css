@@ -6,9 +6,97 @@
   padding: 0;
 }
 
+/* Kelas Populer */
+.kelas a {
+  text-decoration: none;
+}
+
+.kelas .judul {
+  font-family: "gilroy";
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.kelas .flex-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+}
+
+.kelas .flex-list li {
+  list-style: none;
+  flex: auto;
+}
+
+.kelas .flex-list img {
+  width: 520px;
+  height: 370px;
+  border-radius: 29px;
+  margin-bottom: 57px;
+  margin-top: 20px;
+}
+
+.kelas .flex-list h1 {
+  font-family: "gilroy";
+  font-size: 55px;
+}
+
+.kelas .flex-list p {
+  font-family: "inter";
+  font-size: 29px;
+  height: 140px;
+  display: inline-block;
+  text-align: justify;
+  margin-top: 0;
+  padding-right: 80px;
+  width: 630px;
+}
+
+.kelas .btn {
+  display: inline-block;
+  width: 220px;
+  height: 64px;
+  text-align: center;
+  background-color: #fff;
+  color: #407bff;
+  line-height: 64px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #407bff;
+  letter-spacing: 5px;
+}
+
+.kelas .selected {
+  margin-left: 2px;
+  width: 630px;
+  padding-right: 80px;
+}
+
+.kelas .img {
+  width: 520px;
+}
+
+/* Animasi */
+
+.kelas .btn {
+  transition: 0.5s;
+}
+
+.kelas .btn:hover {
+  background-color: #407bff;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.kelas .kelas img {
+  transition: 0.5s;
+}
+/* Kelas Populer End */
+
 /* Testimoni & Langganan */
 section {
-margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 section .heading {
