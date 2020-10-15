@@ -102,6 +102,7 @@
   .footer-list li{
     padding:30px 0px;
     padding-right:30px;
+    font-size:15px;
   }
   /* Footer End */
 }
@@ -203,6 +204,6 @@
   .footer-list li{
   padding:10px 20px;
   padding-left:10px;
-  font-size:15px;
+  font-size:10px;
   /* Footer End */
 }
